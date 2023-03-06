@@ -1,0 +1,26 @@
+programa 
+{ 
+  const inteiro nm=2
+
+	funcao inicio() 
+	{
+		inteiro matricula[nm], nr_matricula=0
+    cadeia nome[nm], sobrenome[nm], nm, sobre
+		real nt1[nm], nt2[nm], nt3[nm], media_nt[nm]
+    
+		para (inteiro posicao = 0; posicao < 2; posicao++)
+		{
+      escreva("\nescreva  o numero da matricula do aluno \n")
+      leia(nr_matricula)
+			matricula[posicao] = nr_matricula 
+      escreva("escreva o nome do aluno \n")
+      leia(nm)
+      nome[posicao]= nm
+      escreva("escreva o sobrenome do aluno \n")
+      leia(sobre)
+      sobrenome[posicao]= sobre
+      limpa()
+		}
+		
+	}
+}
